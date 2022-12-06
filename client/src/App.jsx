@@ -11,7 +11,7 @@ import './App.css';
 
 const cookies = new Cookies();
 
-const apiKey = '83eyttfyjesc';
+const apiKey = 'ky6ugq7v93cp';
 const authToken = cookies.get("token");
 
 const client = StreamChat.getInstance(apiKey);
@@ -38,7 +38,7 @@ const App = () => {
   
   return (
     <div className='app__wrapper'>
-        <Chat client={client} theme="team light">
+        <Chat client={client} theme="team dark">
              <ChannelListContainer 
               isCreating={isCreating}
               setIsCreating={setIsCreating}

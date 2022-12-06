@@ -5,9 +5,9 @@ const crypto = require('crypto');
 
 
 
-const api_key = "83eyttfyjesc"
-const api_secret = "sewuf6hw62yeg2sexxaarh7nq37r2jx2drcpkqg7sp9fmghhrtm7uccb7f98fr5c"
-const app_id = "1214745"
+const api_key = "ky6ugq7v93cp"
+const api_secret = "tjbqgwswj6u2s5xf6tzeq76muyx24u8jtvgn9bwkzea5nfsgz8taqbd2uum4hkwp"
+const app_id = "1222967"
  
 
 const signup = async (req, res) => {
