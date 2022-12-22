@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Your Server Is Running..!!!');
 });
 
 app.post('/', (req, res) => {
